@@ -23,12 +23,23 @@ How will we structure this session?
 
 We love code, don't we?
 
-```js
+Well, let's find that out in vertical slides!
+
+----
+
+We use four lines ('----') to denote the vertical slides
+
+----
+
+```js[1-2|3]
 console.log('We love to code!')
+console.log('Yes we do!')
+console.log("And this line is highlighted in another slide :D")
 ```
 
 ---
 <!-- .slide: data-background="images/doggo.jpg" -->
+[]
 
 ## This is my doggo
 
@@ -41,4 +52,8 @@ console.log('We love to code!')
 
 # Do you want to enchance this?
 
-Checkout the [repo](https://github.com/webpro/reveal-md#usage)!
+Check out the [repo](https://github.com/webpro/reveal-md#usage)!
+
+<br>
+
+A wonderful example is [here!](https://github.com/mandieq/opf_learnings/blob/master/openpower_learnings.md?plain=1)

@@ -39,14 +39,29 @@ console.log("And this line is highlighted in another slide :D")
 
 ---
 <!-- .slide: data-background="images/doggo.jpg" -->
-[]
 
 ## This is my doggo
 
-1. Goodest boy around
-2. Doesn't like bol
-3. Loves yogurt
+<div id='left'>
 
+![](images/doggo.jpg) <!-- .element: width="100px" -->
+
+Text to the left
+
+</div>
+
+<div id='right'>
+
+![](images/doggo.jpg) <!-- .element: width="100px" -->
+
+And text to the right! 
+
+</div>
+
+---
+# HTML Style goes brrr
+
+<span id='bright'>brrrr</span>
 
 ---
 
@@ -56,4 +71,33 @@ Check out the [repo](https://github.com/webpro/reveal-md#usage)!
 
 <br>
 
-A wonderful example is [here!](https://github.com/mandieq/opf_learnings/blob/master/openpower_learnings.md?plain=1)
+A wonderful example is [here!](https://github.com/mandieq/opf_learnings/blob/master/openpower_learnings.md?plain=1) and it is rendered [here](https://mandieq.github.io/opf_learnings/#/)
+
+<!-- This is the style block, customize the html tags to add some styles -->
+<style>
+
+#bright {
+  color: deeppink;
+}
+
+#left {
+	margin: 10px 0 15px 20px;
+	text-align: center;
+	float: left;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+
+#right {
+	margin: 10px 0 15px 0;
+	float: right;
+	text-align: center;
+	z-index:-10;
+	width:48%;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+
+</style>

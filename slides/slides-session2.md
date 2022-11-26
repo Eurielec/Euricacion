@@ -3,7 +3,7 @@
 
 Profesores:
 - Rocío Jiménez Villén
-- M0wer <!-- m0wer no sé tu nombre !! ajkdbk pon tu nombre porfa -->
+- M0wer
 
 ----
 
@@ -31,14 +31,18 @@ Si todavía no estás en el grupo de telegram:
 - Guest
 - Red
 - Protocolo
+- Máscara de red
+- Dirección IP
 
 ----
 
-imagen de ejemplo de una red
+![](images/red_example.png) <!-- .element: width="650px" -->
 
 ----
 
-imagen pila de protocolos
+Pila de protocolos (Internet)
+
+![](images/protocol_stack.svg)
 
 ---
 
@@ -100,7 +104,7 @@ rjvillen@Linx:/var/www/html$ cat index.html
 - Nuestra dirección IP no es visible desde el exterior de la red (IP privada)
 
 ----
-![](images/NAT-image.jpg)
+![](images/nat_defin.png)
 
 ----
 Entrar en nuestro router para configurar el NAT
